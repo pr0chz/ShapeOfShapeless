@@ -1,4 +1,4 @@
-package com.jspha.shapeOfShapeless
+package com.jspha.shapeOfShapeless.genericProgramming
 
 import shapeless.{Generic, HList, Lazy}
 

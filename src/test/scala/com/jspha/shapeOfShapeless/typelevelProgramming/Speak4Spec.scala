@@ -1,12 +1,13 @@
-package com.jspha.shapeOfShapeless
+package com.jspha.shapeOfShapeless.typelevelProgramming
 
-import com.jspha.shapeOfShapeless.Speak2._
 import org.scalatest.{FunSpec, Matchers}
 import shapeless.HNil
 
-class Speak2Spec extends FunSpec with Matchers {
+class Speak4Spec extends FunSpec with Matchers {
 
-  describe("Speak version 2") {
+  import Speak4._
+
+  describe("Speak version 3") {
     it("returns proper HNil values") {
       speak(HNil) shouldEqual HNil
     }

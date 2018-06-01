@@ -1,6 +1,6 @@
-package com.jspha.shapeOfShapeless
+package com.jspha.shapeOfShapeless.typelevelProgramming
 
-import shapeless.{::, Generic, HList, HNil}
+import shapeless.{::, HList, HNil}
 
 trait Speak4[-In <: HList] {
   type Out <: HList

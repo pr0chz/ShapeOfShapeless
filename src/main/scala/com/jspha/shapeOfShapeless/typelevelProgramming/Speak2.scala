@@ -1,4 +1,4 @@
-package com.jspha.shapeOfShapeless
+package com.jspha.shapeOfShapeless.typelevelProgramming
 
 import shapeless.{::, HList, HNil}
 

@@ -1,6 +1,4 @@
-package com.jspha.shapeOfShapeless
-
-import shapeless.Lazy
+package com.jspha.shapeOfShapeless.genericProgramming
 
 final case class BinTree[A](
     value: A,

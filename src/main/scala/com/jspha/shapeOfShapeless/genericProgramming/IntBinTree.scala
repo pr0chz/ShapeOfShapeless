@@ -1,4 +1,4 @@
-package com.jspha.shapeOfShapeless
+package com.jspha.shapeOfShapeless.genericProgramming
 
 final case class IntBinTree(
     value: Int,

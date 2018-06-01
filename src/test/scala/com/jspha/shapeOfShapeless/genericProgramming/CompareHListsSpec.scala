@@ -1,7 +1,7 @@
-package com.jspha.shapeOfShapeless
+package com.jspha.shapeOfShapeless.genericProgramming
 
 import org.scalatest.{FunSpec, Matchers}
-import shapeless.{HList, HNil, ::}
+import shapeless.{HList, HNil}
 
 class CompareHListsSpec extends FunSpec with Matchers {
 

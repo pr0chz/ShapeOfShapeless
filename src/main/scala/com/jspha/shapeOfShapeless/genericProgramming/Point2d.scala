@@ -1,4 +1,4 @@
-package com.jspha.shapeOfShapeless
+package com.jspha.shapeOfShapeless.genericProgramming
 
 final case class Point2d(x: Double, y: Double)
 
