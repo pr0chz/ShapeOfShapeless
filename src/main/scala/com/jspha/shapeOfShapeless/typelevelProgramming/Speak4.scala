@@ -20,7 +20,7 @@ trait Speak4_LowPrio {
 
 object Speak4 extends Speak4_LowPrio {
 
-  type Aux[In <: HList, Out0 <: HList] = Speak4[In] { type Out = Out0 }
+  type Aux[In <: HList, Out0 <: HList] = Speak4[In] { type Out = Out0 } // aux just generalizes the refinement type for Speak4 types
 
   implicit val SpeakHNil: Speak4.Aux[HNil, HNil] = new Speak4[HNil] {
     type Out = HNil
